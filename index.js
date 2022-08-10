@@ -28,7 +28,7 @@ container.addEventListener('click', (event) => {
 
   if (click_count < 2) {
     instance.zoom({
-      deltaScale: Math.sign(event.deltaY) > 0 ? -50 : 50,
+      deltaScale: Math.sign(event.deltaY) > 0 ? -30 : 30,
       x: event.pageX,
       y: event.pageY,
     });
